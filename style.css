@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+}
+/* Navbar section */
+
+#Navbar {
+  background-color: black;
+  color: white;
+}
+/* for ul Section */
+
+#Ul {
+  display: flex;
+}
+#Ul .list {
+  list-style: none;
+  margin: 0.5rem 2rem;
+}
+
+/* for link Section */
+
+#Ul .list .link {
+  text-decoration: none;
+  color: white;
+}
+#Ul .list .link:hover {
+  color: aqua;
+}
+
+/* for Heading section */
+
+#heading {
+  text-align: center;
+  color: red;
+  margin: 3rem 0px;
+}
+
+/* for form Section */
+
+#Enteries {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 1rem;
+  background-color: dimgrey;
+  margin: 1rem  0.4rem;
+  padding: 0px 0.8rem;
+}
+
+.info {
+  margin: 0.7rem 1rem;
+  font-family: cursive;
+  border: 2px solid;
+}
+
+/* for Button Section */
+
+.btn {
+  margin: 1rem 5rem;
+  width: 11rem;
+}
+button#submit{
+    border: 2px red solid;
+    background-color: black;
+    color: white;
+}
+button#reset{
+    border: 2px red solid;
+    background-color: black;
+    color: white;
+}
+button#submit:hover{
+    color: aqua;
+}
+button#reset:hover {
+    color: aqua;
+}
+#del{
+    border: 2px red solid;
+    background-color: black;
+    color: white;
+}
+#del:hover{
+    color: red;
+}
+
+/* for Table Body Section */
+div#table {
+    margin: 5rem 0rem;
+}
